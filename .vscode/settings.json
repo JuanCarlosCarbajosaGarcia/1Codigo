@@ -1,0 +1,6 @@
+{
+    "workbench.browser.newTabPlacement": "window",
+    "editor.wordWrap": "on",
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
+    "terminal.integrated.detectLocale": "off"
+}
