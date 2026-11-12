@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demostracion2</title>
+</head>
+<body>
+    <form action="">
+        <p>
+            Introduzca su nombre:
+            <input type="text" name="nombre" size="50" maxlength="40"/>
+        </p>
+        <br>
+        <p>
+            asigne contraseña:
+            <input type="password" name="clave" size="50" maxlength="30"/>
+        </p>
+        <br>
+        <p>
+            Introduce un mensaje:
+            <textarea name="mansaje" rows="3" cols="30" maxlength="256"></textarea>
+        </p>
+        <br>
+        <p>
+            selecion de currículo:
+            <input type="file" name="fichero" size="50" />
+        </p>
+        <p>
+            <b>botón de opciones</b>
+            <br>
+            Selecciona un objeto:
+            <br>
+            <input type="radio" name="objeto" value="aguacate" />
+            El aguacate de la Axarquía<br>
+            <input type="radio" name="objeto" value="platano" checked/>
+            El platano de Canarias<br>
+            <input type="radio" name="objeto" value="chirimollo" />
+            La chirimolla de Motril<br>
+            <input type="radio" name="objeto" value="longan" />
+            el longan del sur de China<br>
+        </p>
+        <br>
+        <p>
+            <b>Control de selección o verificación</b><br>
+            Seleccione un produccto favorito...<br>
+            <input type="checkbox" name="a1" value="aguacate">El Aguacate
+            <br>
+            <input type="checkbox" name="a2" value="platano" checked>El platano
+            <br>
+            <input type="checkbox" name="a3" value="chirimollo">El Chirimollo
+            <br>
+            <input type="checkbox" name="a4" value="longan" checked>El longan
+            <br>
+        </p>
+        <br>
+        <p>
+            <b>ejemplos de listas</b>
+            <br>
+            Seleccione una opción...<br>
+            <select name="Color">
+                <option>aguacate</option>
+                <option>platano</option>
+                <option selected>chirimollo</option>
+                <option>Longan</option>
+            </select>
+        </p>
+        <input type="submit" name="a5" value="enviar"/>
+        <input type="reset" name="a6" value="borrar"/>
+    </form>
+</body>
+</html>
