@@ -14,5 +14,13 @@
     <a href="/LenguajeMarcas/muestraTeoria2.html">muestra teoria 2</a>
     <br>
     <video src="https://www.youtube.com/watch?v=dQw4w9WgXcQ" controls="true" loop="true" autoplay="true"></video>
+    <br>
+    <canvas id="miLienzo" width="300" height="300" style="border:3px double #000000;"></canvas>
+        <script>
+            var x=document.getElementById("miLienzo");
+            var elem=x.getContext("2d");
+            elem.font = "35px Arial";
+            elem.fillText("▄█▀▀▀▀█▄", 15, 150);
+        </script>
 </body>
 </html>
